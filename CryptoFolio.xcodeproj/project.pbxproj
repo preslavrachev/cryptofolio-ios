@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		468FD8971FA5C1A6003CB156 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468FD8961FA5C1A6003CB156 /* AppDelegate.swift */; };
+		468FD8991FA5C1A6003CB156 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468FD8981FA5C1A6003CB156 /* ViewController.swift */; };
+		468FD89C1FA5C1A6003CB156 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 468FD89A1FA5C1A6003CB156 /* Main.storyboard */; };
+		468FD89F1FA5C1A6003CB156 /* CryptoFolio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 468FD89D1FA5C1A6003CB156 /* CryptoFolio.xcdatamodeld */; };
+		468FD8A11FA5C1A6003CB156 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 468FD8A01FA5C1A6003CB156 /* Assets.xcassets */; };
+		468FD8A41FA5C1A6003CB156 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 468FD8A21FA5C1A6003CB156 /* LaunchScreen.storyboard */; };
+		468FD8AF1FA5C1A6003CB156 /* CryptoFolioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468FD8AE1FA5C1A6003CB156 /* CryptoFolioTests.swift */; };
+		468FD8BA1FA5C1A6003CB156 /* CryptoFolioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468FD8B91FA5C1A6003CB156 /* CryptoFolioUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		468FD8AB1FA5C1A6003CB156 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 468FD88B1FA5C1A6003CB156 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 468FD8921FA5C1A6003CB156;
+			remoteInfo = CryptoFolio;
+		};
+		468FD8B61FA5C1A6003CB156 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 468FD88B1FA5C1A6003CB156 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 468FD8921FA5C1A6003CB156;
+			remoteInfo = CryptoFolio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		468FD8931FA5C1A6003CB156 /* CryptoFolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoFolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		468FD8961FA5C1A6003CB156 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		468FD8981FA5C1A6003CB156 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		468FD89B1FA5C1A6003CB156 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		468FD89E1FA5C1A6003CB156 /* CryptoFolio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CryptoFolio.xcdatamodel; sourceTree = "<group>"; };
+		468FD8A01FA5C1A6003CB156 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		468FD8A31FA5C1A6003CB156 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		468FD8A51FA5C1A6003CB156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		468FD8AA1FA5C1A6003CB156 /* CryptoFolioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoFolioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		468FD8AE1FA5C1A6003CB156 /* CryptoFolioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoFolioTests.swift; sourceTree = "<group>"; };
+		468FD8B01FA5C1A6003CB156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		468FD8B51FA5C1A6003CB156 /* CryptoFolioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoFolioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		468FD8B91FA5C1A6003CB156 /* CryptoFolioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoFolioUITests.swift; sourceTree = "<group>"; };
+		468FD8BB1FA5C1A6003CB156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		468FD8901FA5C1A6003CB156 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		468FD8A71FA5C1A6003CB156 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		468FD8B21FA5C1A6003CB156 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		468FD88A1FA5C1A6003CB156 = {
+			isa = PBXGroup;
+			children = (
+				468FD8951FA5C1A6003CB156 /* CryptoFolio */,
+				468FD8AD1FA5C1A6003CB156 /* CryptoFolioTests */,
+				468FD8B81FA5C1A6003CB156 /* CryptoFolioUITests */,
+				468FD8941FA5C1A6003CB156 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		468FD8941FA5C1A6003CB156 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				468FD8931FA5C1A6003CB156 /* CryptoFolio.app */,
+				468FD8AA1FA5C1A6003CB156 /* CryptoFolioTests.xctest */,
+				468FD8B51FA5C1A6003CB156 /* CryptoFolioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		468FD8951FA5C1A6003CB156 /* CryptoFolio */ = {
+			isa = PBXGroup;
+			children = (
+				468FD8961FA5C1A6003CB156 /* AppDelegate.swift */,
+				468FD8981FA5C1A6003CB156 /* ViewController.swift */,
+				468FD89A1FA5C1A6003CB156 /* Main.storyboard */,
+				468FD8A01FA5C1A6003CB156 /* Assets.xcassets */,
+				468FD8A21FA5C1A6003CB156 /* LaunchScreen.storyboard */,
+				468FD8A51FA5C1A6003CB156 /* Info.plist */,
+				468FD89D1FA5C1A6003CB156 /* CryptoFolio.xcdatamodeld */,
+			);
+			path = CryptoFolio;
+			sourceTree = "<group>";
+		};
+		468FD8AD1FA5C1A6003CB156 /* CryptoFolioTests */ = {
+			isa = PBXGroup;
+			children = (
+				468FD8AE1FA5C1A6003CB156 /* CryptoFolioTests.swift */,
+				468FD8B01FA5C1A6003CB156 /* Info.plist */,
+			);
+			path = CryptoFolioTests;
+			sourceTree = "<group>";
+		};
+		468FD8B81FA5C1A6003CB156 /* CryptoFolioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				468FD8B91FA5C1A6003CB156 /* CryptoFolioUITests.swift */,
+				468FD8BB1FA5C1A6003CB156 /* Info.plist */,
+			);
+			path = CryptoFolioUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		468FD8921FA5C1A6003CB156 /* CryptoFolio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 468FD8BE1FA5C1A6003CB156 /* Build configuration list for PBXNativeTarget "CryptoFolio" */;
+			buildPhases = (
+				468FD88F1FA5C1A6003CB156 /* Sources */,
+				468FD8901FA5C1A6003CB156 /* Frameworks */,
+				468FD8911FA5C1A6003CB156 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryptoFolio;
+			productName = CryptoFolio;
+			productReference = 468FD8931FA5C1A6003CB156 /* CryptoFolio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		468FD8A91FA5C1A6003CB156 /* CryptoFolioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 468FD8C11FA5C1A6003CB156 /* Build configuration list for PBXNativeTarget "CryptoFolioTests" */;
+			buildPhases = (
+				468FD8A61FA5C1A6003CB156 /* Sources */,
+				468FD8A71FA5C1A6003CB156 /* Frameworks */,
+				468FD8A81FA5C1A6003CB156 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				468FD8AC1FA5C1A6003CB156 /* PBXTargetDependency */,
+			);
+			name = CryptoFolioTests;
+			productName = CryptoFolioTests;
+			productReference = 468FD8AA1FA5C1A6003CB156 /* CryptoFolioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		468FD8B41FA5C1A6003CB156 /* CryptoFolioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 468FD8C41FA5C1A6003CB156 /* Build configuration list for PBXNativeTarget "CryptoFolioUITests" */;
+			buildPhases = (
+				468FD8B11FA5C1A6003CB156 /* Sources */,
+				468FD8B21FA5C1A6003CB156 /* Frameworks */,
+				468FD8B31FA5C1A6003CB156 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				468FD8B71FA5C1A6003CB156 /* PBXTargetDependency */,
+			);
+			name = CryptoFolioUITests;
+			productName = CryptoFolioUITests;
+			productReference = 468FD8B51FA5C1A6003CB156 /* CryptoFolioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		468FD88B1FA5C1A6003CB156 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Preslav Rachev";
+				TargetAttributes = {
+					468FD8921FA5C1A6003CB156 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					468FD8A91FA5C1A6003CB156 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 468FD8921FA5C1A6003CB156;
+					};
+					468FD8B41FA5C1A6003CB156 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 468FD8921FA5C1A6003CB156;
+					};
+				};
+			};
+			buildConfigurationList = 468FD88E1FA5C1A6003CB156 /* Build configuration list for PBXProject "CryptoFolio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 468FD88A1FA5C1A6003CB156;
+			productRefGroup = 468FD8941FA5C1A6003CB156 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				468FD8921FA5C1A6003CB156 /* CryptoFolio */,
+				468FD8A91FA5C1A6003CB156 /* CryptoFolioTests */,
+				468FD8B41FA5C1A6003CB156 /* CryptoFolioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		468FD8911FA5C1A6003CB156 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				468FD8A41FA5C1A6003CB156 /* LaunchScreen.storyboard in Resources */,
+				468FD8A11FA5C1A6003CB156 /* Assets.xcassets in Resources */,
+				468FD89C1FA5C1A6003CB156 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		468FD8A81FA5C1A6003CB156 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		468FD8B31FA5C1A6003CB156 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		468FD88F1FA5C1A6003CB156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				468FD8991FA5C1A6003CB156 /* ViewController.swift in Sources */,
+				468FD89F1FA5C1A6003CB156 /* CryptoFolio.xcdatamodeld in Sources */,
+				468FD8971FA5C1A6003CB156 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		468FD8A61FA5C1A6003CB156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				468FD8AF1FA5C1A6003CB156 /* CryptoFolioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		468FD8B11FA5C1A6003CB156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				468FD8BA1FA5C1A6003CB156 /* CryptoFolioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		468FD8AC1FA5C1A6003CB156 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 468FD8921FA5C1A6003CB156 /* CryptoFolio */;
+			targetProxy = 468FD8AB1FA5C1A6003CB156 /* PBXContainerItemProxy */;
+		};
+		468FD8B71FA5C1A6003CB156 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 468FD8921FA5C1A6003CB156 /* CryptoFolio */;
+			targetProxy = 468FD8B61FA5C1A6003CB156 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		468FD89A1FA5C1A6003CB156 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				468FD89B1FA5C1A6003CB156 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		468FD8A21FA5C1A6003CB156 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				468FD8A31FA5C1A6003CB156 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		468FD8BC1FA5C1A6003CB156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		468FD8BD1FA5C1A6003CB156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		468FD8BF1FA5C1A6003CB156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CryptoFolio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.preslavrachev.CryptoFolio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		468FD8C01FA5C1A6003CB156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CryptoFolio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.preslavrachev.CryptoFolio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		468FD8C21FA5C1A6003CB156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CryptoFolioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.preslavrachev.CryptoFolioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoFolio.app/CryptoFolio";
+			};
+			name = Debug;
+		};
+		468FD8C31FA5C1A6003CB156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CryptoFolioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.preslavrachev.CryptoFolioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoFolio.app/CryptoFolio";
+			};
+			name = Release;
+		};
+		468FD8C51FA5C1A6003CB156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CryptoFolioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.preslavrachev.CryptoFolioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CryptoFolio;
+			};
+			name = Debug;
+		};
+		468FD8C61FA5C1A6003CB156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CryptoFolioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.preslavrachev.CryptoFolioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CryptoFolio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		468FD88E1FA5C1A6003CB156 /* Build configuration list for PBXProject "CryptoFolio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				468FD8BC1FA5C1A6003CB156 /* Debug */,
+				468FD8BD1FA5C1A6003CB156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		468FD8BE1FA5C1A6003CB156 /* Build configuration list for PBXNativeTarget "CryptoFolio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				468FD8BF1FA5C1A6003CB156 /* Debug */,
+				468FD8C01FA5C1A6003CB156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		468FD8C11FA5C1A6003CB156 /* Build configuration list for PBXNativeTarget "CryptoFolioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				468FD8C21FA5C1A6003CB156 /* Debug */,
+				468FD8C31FA5C1A6003CB156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		468FD8C41FA5C1A6003CB156 /* Build configuration list for PBXNativeTarget "CryptoFolioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				468FD8C51FA5C1A6003CB156 /* Debug */,
+				468FD8C61FA5C1A6003CB156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		468FD89D1FA5C1A6003CB156 /* CryptoFolio.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				468FD89E1FA5C1A6003CB156 /* CryptoFolio.xcdatamodel */,
+			);
+			currentVersion = 468FD89E1FA5C1A6003CB156 /* CryptoFolio.xcdatamodel */;
+			path = CryptoFolio.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 468FD88B1FA5C1A6003CB156 /* Project object */;
+}
