@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		463BB60D1FA62E6700224415 /* AccountsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463BB60C1FA62E6700224415 /* AccountsManager.swift */; };
+		463BB6101FA6317300224415 /* SupportedMarkets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463BB60F1FA6317300224415 /* SupportedMarkets.swift */; };
+		463BB6121FA6433E00224415 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463BB6111FA6433E00224415 /* Errors.swift */; };
+		463BB6151FA6F7D600224415 /* AccountsManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463BB6141FA6F7D600224415 /* AccountsManagerTests.swift */; };
 		465D27461FA5C68B00C1B97A /* BalanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465D27451FA5C68B00C1B97A /* BalanceViewController.swift */; };
 		468FD8971FA5C1A6003CB156 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468FD8961FA5C1A6003CB156 /* AppDelegate.swift */; };
 		468FD89C1FA5C1A6003CB156 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 468FD89A1FA5C1A6003CB156 /* Main.storyboard */; };
@@ -39,6 +43,10 @@
 
 /* Begin PBXFileReference section */
 		41F5D04DF5CD9190D6389C65 /* Pods-CryptoFolio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoFolio.release.xcconfig"; path = "Pods/Target Support Files/Pods-CryptoFolio/Pods-CryptoFolio.release.xcconfig"; sourceTree = "<group>"; };
+		463BB60C1FA62E6700224415 /* AccountsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountsManager.swift; sourceTree = "<group>"; };
+		463BB60F1FA6317300224415 /* SupportedMarkets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportedMarkets.swift; sourceTree = "<group>"; };
+		463BB6111FA6433E00224415 /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		463BB6141FA6F7D600224415 /* AccountsManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountsManagerTests.swift; sourceTree = "<group>"; };
 		465D27451FA5C68B00C1B97A /* BalanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalanceViewController.swift; sourceTree = "<group>"; };
 		468FD8931FA5C1A6003CB156 /* CryptoFolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoFolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		468FD8961FA5C1A6003CB156 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +99,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		463BB60B1FA62E2400224415 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				463BB60C1FA62E6700224415 /* AccountsManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		463BB60E1FA6313300224415 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				463BB60F1FA6317300224415 /* SupportedMarkets.swift */,
+				463BB6111FA6433E00224415 /* Errors.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		463BB6131FA6F7A000224415 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				463BB6141FA6F7D600224415 /* AccountsManagerTests.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		465D27421FA5C4AB00C1B97A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +157,8 @@
 		468FD8951FA5C1A6003CB156 /* CryptoFolio */ = {
 			isa = PBXGroup;
 			children = (
+				463BB60E1FA6313300224415 /* Helpers */,
+				463BB60B1FA62E2400224415 /* Managers */,
 				465D27421FA5C4AB00C1B97A /* Controllers */,
 				468FD8961FA5C1A6003CB156 /* AppDelegate.swift */,
 				468FD89A1FA5C1A6003CB156 /* Main.storyboard */,
@@ -138,6 +173,7 @@
 		468FD8AD1FA5C1A6003CB156 /* CryptoFolioTests */ = {
 			isa = PBXGroup;
 			children = (
+				463BB6131FA6F7A000224415 /* Managers */,
 				468FD8AE1FA5C1A6003CB156 /* CryptoFolioTests.swift */,
 				468FD8B01FA5C1A6003CB156 /* Info.plist */,
 			);
@@ -473,7 +509,10 @@
 			files = (
 				468FD89F1FA5C1A6003CB156 /* CryptoFolio.xcdatamodeld in Sources */,
 				465D27461FA5C68B00C1B97A /* BalanceViewController.swift in Sources */,
+				463BB6101FA6317300224415 /* SupportedMarkets.swift in Sources */,
 				468FD8971FA5C1A6003CB156 /* AppDelegate.swift in Sources */,
+				463BB6121FA6433E00224415 /* Errors.swift in Sources */,
+				463BB60D1FA62E6700224415 /* AccountsManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +521,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				468FD8AF1FA5C1A6003CB156 /* CryptoFolioTests.swift in Sources */,
+				463BB6151FA6F7D600224415 /* AccountsManagerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
