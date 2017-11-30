@@ -11,6 +11,7 @@
 		463BB6101FA6317300224415 /* SupportedMarkets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463BB60F1FA6317300224415 /* SupportedMarkets.swift */; };
 		463BB6121FA6433E00224415 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463BB6111FA6433E00224415 /* Errors.swift */; };
 		463BB6151FA6F7D600224415 /* AccountsManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463BB6141FA6F7D600224415 /* AccountsManagerTests.swift */; };
+		463BB61E1FAF4BF000224415 /* Poloniex.json in Resources */ = {isa = PBXBuildFile; fileRef = 463BB61D1FAF4BF000224415 /* Poloniex.json */; };
 		465D27461FA5C68B00C1B97A /* BalanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465D27451FA5C68B00C1B97A /* BalanceViewController.swift */; };
 		468FD8971FA5C1A6003CB156 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468FD8961FA5C1A6003CB156 /* AppDelegate.swift */; };
 		468FD89C1FA5C1A6003CB156 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 468FD89A1FA5C1A6003CB156 /* Main.storyboard */; };
@@ -47,6 +48,7 @@
 		463BB60F1FA6317300224415 /* SupportedMarkets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportedMarkets.swift; sourceTree = "<group>"; };
 		463BB6111FA6433E00224415 /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
 		463BB6141FA6F7D600224415 /* AccountsManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountsManagerTests.swift; sourceTree = "<group>"; };
+		463BB61D1FAF4BF000224415 /* Poloniex.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Poloniex.json; sourceTree = "<group>"; };
 		465D27451FA5C68B00C1B97A /* BalanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalanceViewController.swift; sourceTree = "<group>"; };
 		468FD8931FA5C1A6003CB156 /* CryptoFolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoFolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		468FD8961FA5C1A6003CB156 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -122,6 +124,31 @@
 				463BB6141FA6F7D600224415 /* AccountsManagerTests.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		463BB61A1FAF4B9400224415 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				46E379291FCD3E87001B21BE /* CoreData */,
+				463BB61B1FAF4BC100224415 /* Json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		463BB61B1FAF4BC100224415 /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				463BB61C1FAF4BD300224415 /* Mocks */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		463BB61C1FAF4BD300224415 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				463BB61D1FAF4BF000224415 /* Poloniex.json */,
+			);
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 		465D27421FA5C4AB00C1B97A /* Controllers */ = {
@@ -331,6 +358,7 @@
 				468FD8A41FA5C1A6003CB156 /* LaunchScreen.storyboard in Resources */,
 				468FD8A11FA5C1A6003CB156 /* Assets.xcassets in Resources */,
 				468FD89C1FA5C1A6003CB156 /* Main.storyboard in Resources */,
+				463BB61E1FAF4BF000224415 /* Poloniex.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +370,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		468FD8B31FA5C1A6003CB156 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46E379351FCD433A001B21BE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
